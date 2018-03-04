@@ -153,6 +153,7 @@ class _API(object):
             # https://vk.com/dev/api_requests
             params = dict(
                 access_token=self.token,
+                v='5.73',
             )
             params.update(kwargs)
             params['timestamp'] = int(time.time())
